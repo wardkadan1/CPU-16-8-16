@@ -1,0 +1,1300 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/HLS
+Ealu
+Z0 w1748540134
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dC:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL
+Z5 8C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/alu.vhd
+Z6 FC:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/alu.vhd
+l0
+L6
+Vi41RG^iaP]Hb`]Q1V:I:Z1
+!s100 zihe@l?dLMNOVUY53]Ao71
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1748762171
+!i10b 1
+Z9 !s108 1748762171.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/alu.vhd|
+Z11 !s107 C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/alu.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Aarc_alu
+R1
+R2
+R3
+Z14 DEx4 work 3 alu 0 22 i41RG^iaP]Hb`]Q1V:I:Z1
+l17
+L16
+VPZal9Rm>KOa:KC`8cfQ1N0
+!s100 ichElf:aW]2@Jl:1fI8o;2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ealu_16bit
+Z15 w1748761439
+R1
+R2
+R3
+R4
+Z16 8C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/alu_16bit.vhd
+Z17 FC:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/alu_16bit.vhd
+l0
+L7
+V:f;[If?gYgRgUz?O]YT8A2
+!s100 Y5]01;mbdGEkn46C6Qcmi1
+R7
+32
+Z18 !s110 1748762172
+!i10b 1
+Z19 !s108 1748762172.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/alu_16bit.vhd|
+Z21 !s107 C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/alu_16bit.vhd|
+!i113 1
+R12
+R13
+Aarc_alu_16bit
+R1
+R2
+R3
+Z22 DEx4 work 9 alu_16bit 0 22 :f;[If?gYgRgUz?O]YT8A2
+l18
+L17
+VSmQkLba`9AD;XYA5jESPX2
+!s100 R;82iKkendJ8IX:hhHGaN3
+R7
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R12
+R13
+Ebor_4adr_16bit
+R15
+R1
+R2
+R3
+R4
+Z23 8C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/bor_4adr_16bit.vhd
+Z24 FC:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/bor_4adr_16bit.vhd
+l0
+L7
+VBe719E_Pmbz9[NcWU^;QF0
+!s100 zF8jo4cb[kQDI]4D]6f8d2
+R7
+32
+R18
+!i10b 1
+R19
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/bor_4adr_16bit.vhd|
+Z26 !s107 C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/bor_4adr_16bit.vhd|
+!i113 1
+R12
+R13
+Aarc_bor_4adr_16bit
+R1
+R2
+R3
+Z27 DEx4 work 14 bor_4adr_16bit 0 22 Be719E_Pmbz9[NcWU^;QF0
+l25
+L21
+V0<LYBP9Q[3e=_<3oQ:Sb@3
+!s100 DzhN9XE<0hT_1=BHk<m=53
+R7
+32
+R18
+!i10b 1
+R19
+R25
+R26
+!i113 1
+R12
+R13
+Ccfg_alu
+ealu
+aarc_alu
+DAx4 work 3 alu 7 arc_alu 22 PZal9Rm>KOa:KC`8cfQ1N0
+R1
+R2
+R3
+R14
+R0
+R4
+R5
+R6
+l0
+L87
+VOIhkbh0`c5_`jD3zAIPSz1
+!s100 SAUmR];Ig;4c>M3CMg0@92
+R7
+32
+R8
+!i10b 0
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ccfg_alu_16bit
+ealu_16bit
+aarc_alu_16bit
+DAx4 work 9 alu_16bit 13 arc_alu_16bit 22 SmQkLba`9AD;XYA5jESPX2
+R1
+R2
+R3
+R22
+R15
+R4
+R16
+R17
+l0
+L45
+VZoz26a9YN7m_ai00U]RlC0
+!s100 6QMQaLB80EAG@cPLd^FHz2
+R7
+32
+R18
+!i10b 0
+R19
+R20
+R21
+!i113 1
+R12
+R13
+Ccfg_bor_4adr_16bit
+ebor_4adr_16bit
+aarc_bor_4adr_16bit
+DAx4 work 14 bor_4adr_16bit 18 arc_bor_4adr_16bit 22 0<LYBP9Q[3e=_<3oQ:Sb@3
+R1
+R2
+R3
+R27
+R15
+R4
+R23
+R24
+l0
+L41
+V=1]9lfWcg8@IZ9OXdSONN2
+!s100 C@^179@hTK[mKi1E`=Wa[2
+R7
+32
+R18
+!i10b 0
+R19
+R25
+R26
+!i113 1
+R12
+R13
+Ccfg_counter_p_16bit
+ecounter_p_16bit
+aarc_counter_p_16bit
+DAx4 work 15 counter_p_16bit 19 arc_counter_p_16bit 22 EeUOgF93jo0UMcnJ52@b=2
+R1
+R2
+R3
+Z28 DEx4 work 15 counter_p_16bit 0 22 Kc]AnX;C:j`eM0NfCl97o1
+R15
+R4
+Z29 8C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/counter_p_16bit.vhd
+Z30 FC:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/counter_p_16bit.vhd
+l0
+L41
+Vo>O_E>@Hk7__Egb>535BC3
+!s100 gIX5l3Y[YH7fc[SzP86of1
+R7
+32
+R18
+!i10b 0
+R19
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/counter_p_16bit.vhd|
+Z32 !s107 C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/counter_p_16bit.vhd|
+!i113 1
+R12
+R13
+Ccfg_d_ff
+ed_ff
+aarc_d_ff
+DAx4 work 4 d_ff 8 arc_d_ff 22 >CT?1c7640leJD:@T?NRc1
+R2
+R3
+Z33 DEx4 work 4 d_ff 0 22 4>kJX`k1kkijHz5F5kGHA3
+R15
+R4
+Z34 8C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/d_ff.vhd
+Z35 FC:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/d_ff.vhd
+l0
+L31
+VLCdQSh5>@_:aGW7UCR81n3
+!s100 a65AC6Q5n>ADnS3X?OA_A1
+R7
+32
+R18
+!i10b 0
+R19
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/d_ff.vhd|
+Z37 !s107 C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/d_ff.vhd|
+!i113 1
+R12
+R13
+Ccfg_dp
+edp
+aarc_dp
+Z38 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z39 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R22
+Z40 DEx4 work 6 g_comp 0 22 idA@cGC4XSX156C1cA6eT2
+R28
+R27
+Z41 DEx4 work 9 reg_16bit 0 22 n65h7iZ9nQa7jc6;D@d]V1
+Z42 DEx4 work 13 reg_16bit_2en 0 22 5kOOC37KKe>]O]i5dgEfQ1
+R33
+Z43 DEx4 work 13 memalt65536x8 0 22 ?cY8=Im:RUi^:83o9>lal3
+Z44 DEx4 work 14 memalt65536x16 0 22 FQ@YUA_Jif5P>@1kmM;Ui1
+R14
+Z45 DEx4 work 7 mux_6x8 0 22 5N`T7Q49?]jba;0W[Q`TX1
+Z46 DEx4 work 7 mux_8x8 0 22 @c:H9J[9nNla3I`5aBEhD0
+Z47 DEx4 work 7 mux_2x4 0 22 L[>[zY;3gMK`Kn7^F`eG13
+Z48 DEx4 work 8 mux_7x16 0 22 igl[YYjHl<h8dDR`;GAea2
+Z49 DEx4 work 8 mux_2x16 0 22 gdc[C=VREz9k2EAeW2Agn2
+DAx4 work 2 dp 6 arc_dp 22 z=k:4F9FJJF4ND4O>bNTT1
+Z50 DPx4 work 10 components 0 22 [zL;ImYXGRn]ki_@3e1Xf0
+R1
+R2
+R3
+Z51 DEx4 work 2 dp 0 22 ^imfVE^<:AGjUj1BUe<ME2
+R15
+R4
+Z52 8C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/dp.vhd
+Z53 FC:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/dp.vhd
+l0
+L217
+VQ;O_]N>T?F;9k<SCeVUR33
+!s100 kh^IZPWA43T9<TR56d6Ib2
+R7
+32
+R18
+!i10b 0
+R19
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/dp.vhd|
+Z55 !s107 C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/dp.vhd|
+!i113 1
+R12
+R13
+Ccfg_g_comp
+eg_comp
+aarc_g_comp
+DAx4 work 6 g_comp 10 arc_g_comp 22 MagUCWnd^Zk_9P:4Lb<=T3
+R39
+R38
+R2
+R3
+R40
+R15
+R4
+Z56 8C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/g_comp.vhd
+Z57 FC:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/g_comp.vhd
+l0
+L51
+Vc[FYMkHG0j<g9hk91I3^Z2
+!s100 GBa1^0Ff0:Z42;W8A9:f91
+R7
+32
+R18
+!i10b 0
+R19
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/g_comp.vhd|
+Z59 !s107 C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/g_comp.vhd|
+!i113 1
+R12
+R13
+Ccfg_mux_2x16
+emux_2x16
+aarc_mux_2x16
+DAx4 work 8 mux_2x16 12 arc_mux_2x16 22 WfQoB7XgQjKkYA`lE1jXN0
+R2
+R3
+R49
+R15
+R4
+Z60 8C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/mux_2x16.vhd
+Z61 FC:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/mux_2x16.vhd
+l0
+L28
+VIKHLPV1SbD3];gh>J7n>d3
+!s100 nK:`@W=F@f<fXcccO0WWJ3
+R7
+32
+R18
+!i10b 0
+R19
+Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/mux_2x16.vhd|
+Z63 !s107 C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/mux_2x16.vhd|
+!i113 1
+R12
+R13
+Ccfg_mux_2x4
+emux_2x4
+aarc_mux_2x4
+DAx4 work 7 mux_2x4 11 arc_mux_2x4 22 O[aQ_ZJWbKGU]6eT@eO=h3
+R2
+R3
+R47
+R15
+R4
+Z64 8C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/mux_2x4.vhd
+Z65 FC:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/mux_2x4.vhd
+l0
+L28
+VdWL3Snne[a55<GY]E66iE0
+!s100 :koei6dZk626g97m=9OFm1
+R7
+32
+R18
+!i10b 0
+R19
+Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/mux_2x4.vhd|
+Z67 !s107 C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/mux_2x4.vhd|
+!i113 1
+R12
+R13
+Ccfg_mux_6x8
+emux_6x8
+aarc_mux_6x8
+DAx4 work 7 mux_6x8 11 arc_mux_6x8 22 Sl3OFP<98dC;]jXVOfL_i0
+R2
+R3
+R45
+R15
+R4
+Z68 8C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/mux_6x8.vhd
+Z69 FC:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/mux_6x8.vhd
+l0
+L36
+VSd6YgOIW44B1<9<f:NNcf3
+!s100 @VaRI]Ye6L_OoQMllCeM93
+R7
+32
+R18
+!i10b 0
+R19
+Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/mux_6x8.vhd|
+Z71 !s107 C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/mux_6x8.vhd|
+!i113 1
+R12
+R13
+Ccfg_mux_7x16
+emux_7x16
+aarc_mux_7x16
+DAx4 work 8 mux_7x16 12 arc_mux_7x16 22 G=lAiL01Wfmhn>0zgIL:D2
+R2
+R3
+R48
+R15
+R4
+Z72 8C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/mux_7x16.vhd
+Z73 FC:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/mux_7x16.vhd
+l0
+L38
+VG>dV3[GGdl@2efR`lk>d?3
+!s100 D_Ci`10oUoiAe_`i0>9a33
+R7
+32
+Z74 !s110 1748762173
+!i10b 0
+R19
+Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/mux_7x16.vhd|
+Z76 !s107 C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/mux_7x16.vhd|
+!i113 1
+R12
+R13
+Ccfg_mux_8x8
+emux_8x8
+aarc_mux_8x8
+DAx4 work 7 mux_8x8 11 arc_mux_8x8 22 l4G@B5c=<elHNc`hEe47[2
+R2
+R3
+R46
+R15
+R4
+Z77 8C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/mux_8x8.vhd
+Z78 FC:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/mux_8x8.vhd
+l0
+L40
+VRL1i1mMUBPzMcTcLIWF>G2
+!s100 1DzAkFU<X>8DmXkEF?@U43
+R7
+32
+R74
+!i10b 0
+Z79 !s108 1748762173.000000
+Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/mux_8x8.vhd|
+Z81 !s107 C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/mux_8x8.vhd|
+!i113 1
+R12
+R13
+Ccfg_reg_16bit
+ereg_16bit
+aarc_reg_16bit
+DAx4 work 9 reg_16bit 13 arc_reg_16bit 22 ^kV^T<32=;f<`P6MgTCK^3
+R1
+R2
+R3
+R41
+R15
+R4
+Z82 8C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/reg_16bit.vhd
+Z83 FC:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/reg_16bit.vhd
+l0
+L32
+V89fP6?hh94P^3[M;jGUPO1
+!s100 QPd0l^:24_L?an6EjhdMN1
+R7
+32
+R74
+!i10b 0
+R79
+Z84 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/reg_16bit.vhd|
+Z85 !s107 C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/reg_16bit.vhd|
+!i113 1
+R12
+R13
+Ccfg_reg_8bit
+ereg_8bit
+aarc_reg_8bit
+DAx4 work 8 reg_8bit 12 arc_reg_8bit 22 KWM76bW4bkTHnUJ5=n69N0
+R1
+R2
+R3
+Z86 DEx4 work 8 reg_8bit 0 22 CTZKXC9QRez?m@<CQjGCO1
+R15
+R4
+Z87 8C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/reg_8bit.vhd
+Z88 FC:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/reg_8bit.vhd
+l0
+L32
+V^7D8?bGD:zBC1VzE]]0BM2
+!s100 @CGm^WfLMJ9knJB@;a6eM1
+R7
+32
+R74
+!i10b 0
+R79
+Z89 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/reg_8bit.vhd|
+Z90 !s107 C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/reg_8bit.vhd|
+!i113 1
+R12
+R13
+Ccfg_top
+etop
+aarc_top
+R1
+R50
+R51
+Z91 DEx4 work 7 structm 0 22 5@=]<agRT28mH@fK?L_J61
+DAx4 work 3 top 7 arc_top 22 2VmO?EJh8UD9FdWgfd7Tl1
+R2
+R3
+Z92 DEx4 work 3 top 0 22 QfBMJYBm6CdUdCG0CHzoX3
+Z93 w1748761440
+R4
+Z94 8C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/top.vhd
+Z95 FC:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/top.vhd
+l0
+L256
+VMojFXBbzPF=zZio9__FDz0
+!s100 =@BQ?Qa6A>XLSKFU?cPZN3
+R7
+32
+R74
+!i10b 0
+R79
+Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/top.vhd|
+Z97 !s107 C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/top.vhd|
+!i113 1
+R12
+R13
+Ccfg_top_tb
+eTop_tb
+aARC_Top_tb
+R92
+DAx4 work 6 top_tb 10 arc_top_tb 22 8P8][e=jUhQT28ZbJ3;U32
+R50
+R1
+R2
+R3
+Z98 DEx4 work 6 top_tb 0 22 7EIX:SMJ42G5fEW@3Q0;[0
+Z99 w1748761982
+R4
+Z100 8C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/Top_tb.vhd
+Z101 FC:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/Top_tb.vhd
+l0
+L663
+VR]AElfgK4Y@@SNA<;cX_e3
+!s100 XPV1JNBJfkBcQ8_DijCz^3
+R7
+32
+R74
+!i10b 0
+R79
+Z102 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/Top_tb.vhd|
+Z103 !s107 C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/Top_tb.vhd|
+!i113 1
+R12
+R13
+Pcomponents
+R1
+R2
+R3
+R15
+R4
+Z104 8C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/components.vhd
+Z105 FC:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/components.vhd
+l0
+L6
+V[zL;ImYXGRn]ki_@3e1Xf0
+!s100 bjjj0DC^b=XRfaEaRHl?d0
+R7
+32
+b1
+R18
+!i10b 1
+R19
+Z106 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/components.vhd|
+Z107 !s107 C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/components.vhd|
+!i113 1
+R12
+R13
+Bbody
+R50
+R1
+R2
+R3
+l0
+L206
+V77_P3DRUc:I@AjQUk]LP40
+!s100 402o>RWXcD7AAb0SGG42b0
+R7
+32
+R18
+!i10b 1
+R19
+R106
+R107
+!i113 1
+R12
+R13
+Ecounter_p_16bit
+R15
+R1
+R2
+R3
+R4
+R29
+R30
+l0
+L7
+VKc]AnX;C:j`eM0NfCl97o1
+!s100 aJ5VGlQTW74H`3K>8c6]_2
+R7
+32
+R18
+!i10b 1
+R19
+R31
+R32
+!i113 1
+R12
+R13
+Aarc_counter_p_16bit
+R1
+R2
+R3
+R28
+l20
+L19
+VEeUOgF93jo0UMcnJ52@b=2
+!s100 VKBBeigUJP1?EE:PWT5Gm3
+R7
+32
+R18
+!i10b 1
+R19
+R31
+R32
+!i113 1
+R12
+R13
+Ed_ff
+R15
+R2
+R3
+R4
+R34
+R35
+l0
+L6
+V4>kJX`k1kkijHz5F5kGHA3
+!s100 6Ae`^On:>mXgYgA]5N@H_1
+R7
+32
+R18
+!i10b 1
+R19
+R36
+R37
+!i113 1
+R12
+R13
+Aarc_d_ff
+R2
+R3
+R33
+l18
+L17
+V>CT?1c7640leJD:@T?NRc1
+!s100 7h]a14>@a5lNXd>QSh?WI1
+R7
+32
+R18
+!i10b 1
+R19
+R36
+R37
+!i113 1
+R12
+R13
+Edp
+R15
+R50
+R1
+R2
+R3
+R4
+R52
+R53
+l0
+L8
+V^imfVE^<:AGjUj1BUe<ME2
+!s100 Zkh?jl]`<D@_K[oNT8?2B0
+R7
+32
+R18
+!i10b 1
+R19
+R54
+R55
+!i113 1
+R12
+R13
+Aarc_dp
+R50
+R1
+R2
+R3
+R51
+l93
+L64
+Vz=k:4F9FJJF4ND4O>bNTT1
+!s100 `do6UoNYch5Pi@TYiNdZ:0
+R7
+32
+R18
+!i10b 1
+R19
+R54
+R55
+!i113 1
+R12
+R13
+Eg_comp
+R15
+R39
+R38
+R2
+R3
+R4
+R56
+R57
+l0
+L9
+VidA@cGC4XSX156C1cA6eT2
+!s100 <fR7UCR^HSCz6o:DemTd?3
+R7
+32
+R18
+!i10b 1
+R19
+R58
+R59
+!i113 1
+R12
+R13
+Aarc_g_comp
+R39
+R38
+R2
+R3
+R40
+l24
+L23
+VMagUCWnd^Zk_9P:4Lb<=T3
+!s100 BaBV[L<a40j6?SPW2<`063
+R7
+32
+R18
+!i10b 1
+R19
+R58
+R59
+!i113 1
+R12
+R13
+Ememalt65536x16
+Z108 w1747920456
+R1
+R2
+R3
+R4
+Z109 8C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/memAlt65536x16.vhd
+Z110 FC:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/memAlt65536x16.vhd
+l0
+L5
+VFQ@YUA_Jif5P>@1kmM;Ui1
+!s100 z^7@S@P1KzIhLHO<H^fJh3
+R7
+32
+R18
+!i10b 1
+R19
+Z111 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/memAlt65536x16.vhd|
+Z112 !s107 C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/memAlt65536x16.vhd|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+R44
+l25
+L21
+V22YhIghkeK[1EI0SDZQCZ2
+!s100 >I0fK7ObcYE=CQ=YBDVNd3
+R7
+32
+R18
+!i10b 1
+R19
+R111
+R112
+!i113 1
+R12
+R13
+Ememalt65536x8
+Z113 w1748540130
+R1
+R2
+R3
+R4
+Z114 8C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/memAlt65536x8.vhd
+Z115 FC:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/memAlt65536x8.vhd
+l0
+L5
+V?cY8=Im:RUi^:83o9>lal3
+!s100 WEEY[D8mTTO[bTDS9a<5C3
+R7
+32
+R18
+!i10b 1
+R19
+Z116 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/memAlt65536x8.vhd|
+Z117 !s107 C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/memAlt65536x8.vhd|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+R43
+l25
+L21
+V7PU=E:hj?>>4DNZ?OA[eT3
+!s100 YQF8Vg;h6m<9^GeIT]FAh1
+R7
+32
+R18
+!i10b 1
+R19
+R116
+R117
+!i113 1
+R12
+R13
+Emux_2x16
+R15
+R2
+R3
+R4
+R60
+R61
+l0
+L6
+Vgdc[C=VREz9k2EAeW2Agn2
+!s100 ]n7K:`hOiGbBPk1G<AR5S2
+R7
+32
+R18
+!i10b 1
+R19
+R62
+R63
+!i113 1
+R12
+R13
+Aarc_mux_2x16
+R2
+R3
+R49
+l17
+L16
+VWfQoB7XgQjKkYA`lE1jXN0
+!s100 be;Xc:S?ZaJ=d0^1n`EdN2
+R7
+32
+R18
+!i10b 1
+R19
+R62
+R63
+!i113 1
+R12
+R13
+Emux_2x4
+R15
+R2
+R3
+R4
+R64
+R65
+l0
+L6
+VL[>[zY;3gMK`Kn7^F`eG13
+!s100 >NKUmWeCjU=74QOmTd=SD3
+R7
+32
+R18
+!i10b 1
+R19
+R66
+R67
+!i113 1
+R12
+R13
+Aarc_mux_2x4
+R2
+R3
+R47
+l17
+L16
+VO[aQ_ZJWbKGU]6eT@eO=h3
+!s100 lf]jl8l<Mg[:`BQfY]7FM2
+R7
+32
+R18
+!i10b 1
+R19
+R66
+R67
+!i113 1
+R12
+R13
+Emux_6x8
+R15
+R2
+R3
+R4
+R68
+R69
+l0
+L6
+V5N`T7Q49?]jba;0W[Q`TX1
+!s100 MF>TVEkeHOhA@1O8JW2ee1
+R7
+32
+R18
+!i10b 1
+R19
+R70
+R71
+!i113 1
+R12
+R13
+Aarc_mux_6x8
+R2
+R3
+R45
+l21
+L20
+VSl3OFP<98dC;]jXVOfL_i0
+!s100 Aj4hURjEQUgJAOHk4fEJ_3
+R7
+32
+R18
+!i10b 1
+R19
+R70
+R71
+!i113 1
+R12
+R13
+Emux_7x16
+R15
+R2
+R3
+R4
+R72
+R73
+l0
+L6
+Vigl[YYjHl<h8dDR`;GAea2
+!s100 oTd9So1BUMK:j9o_`fSRN1
+R7
+32
+R74
+!i10b 1
+R19
+R75
+R76
+!i113 1
+R12
+R13
+Aarc_mux_7x16
+R2
+R3
+R48
+l22
+L21
+VG=lAiL01Wfmhn>0zgIL:D2
+!s100 IDOd1?lCJ;TXH7XDEM0K61
+R7
+32
+R74
+!i10b 1
+R19
+R75
+R76
+!i113 1
+R12
+R13
+Emux_8x8
+R15
+R2
+R3
+R4
+R77
+R78
+l0
+L6
+V@c:H9J[9nNla3I`5aBEhD0
+!s100 iOaehBIgAfiMhfVA7JM;F2
+R7
+32
+R74
+!i10b 1
+R79
+R80
+R81
+!i113 1
+R12
+R13
+Aarc_mux_8x8
+R2
+R3
+R46
+l23
+L22
+Vl4G@B5c=<elHNc`hEe47[2
+!s100 DkoQSahlhWWM@[D6Dn1cI2
+R7
+32
+R74
+!i10b 1
+R79
+R80
+R81
+!i113 1
+R12
+R13
+Ereg_16bit
+R15
+R1
+R2
+R3
+R4
+R82
+R83
+l0
+L7
+Vn65h7iZ9nQa7jc6;D@d]V1
+!s100 8O4L@=b>Id7j91eVFDURc3
+R7
+32
+R74
+!i10b 1
+R79
+R84
+R85
+!i113 1
+R12
+R13
+Aarc_reg_16bit
+R1
+R2
+R3
+R41
+l19
+L18
+V^kV^T<32=;f<`P6MgTCK^3
+!s100 Tk^XiGC=bRGcG]^L`^QCZ2
+R7
+32
+R74
+!i10b 1
+R79
+R84
+R85
+!i113 1
+R12
+R13
+Ereg_16bit_2en
+R15
+R1
+R2
+R3
+R4
+Z118 8C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/reg_16bit_2en.vhd
+Z119 FC:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/reg_16bit_2en.vhd
+l0
+L7
+V5kOOC37KKe>]O]i5dgEfQ1
+!s100 3N20T3d_Mfl1_T4_E81dT3
+R7
+32
+R74
+!i10b 1
+R79
+Z120 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/reg_16bit_2en.vhd|
+Z121 !s107 C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/reg_16bit_2en.vhd|
+!i113 1
+R12
+R13
+Aarc_reg_16bit_2en
+R1
+R2
+R3
+R42
+l29
+L18
+V3oRVNzdP:6A5QjVYmgn0<2
+!s100 >Z=SJ4`ZXPYkz<X7>;05e3
+R7
+32
+R74
+!i10b 1
+R79
+R120
+R121
+!i113 1
+R12
+R13
+Ereg_8bit
+R15
+R1
+R2
+R3
+R4
+R87
+R88
+l0
+L7
+VCTZKXC9QRez?m@<CQjGCO1
+!s100 NmFY9ik`e2J4>BcRk<`bm0
+R7
+32
+R74
+!i10b 1
+R79
+R89
+R90
+!i113 1
+R12
+R13
+Aarc_reg_8bit
+R1
+R2
+R3
+R86
+l19
+L18
+VKWM76bW4bkTHnUJ5=n69N0
+!s100 YS[c]iZIR;eTWg=7K4jF?1
+R7
+32
+R74
+!i10b 1
+R79
+R89
+R90
+!i113 1
+R12
+R13
+Estructm
+R93
+R50
+R1
+R2
+R3
+R4
+Z122 8C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/Structm.vhd
+Z123 FC:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/Structm.vhd
+l0
+L6
+V5@=]<agRT28mH@fK?L_J61
+!s100 bg6<Df:zFiF>:Dkb5<OB<0
+R7
+32
+R74
+!i10b 1
+R79
+Z124 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/Structm.vhd|
+Z125 !s107 C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/Structm.vhd|
+!i113 1
+R12
+R13
+Aarc_structm
+R50
+R1
+R2
+R3
+R91
+l61
+L52
+VB;]4InAc;AR97ldkY8=l]2
+!s100 b[mlda7:CNe_36N4k787M1
+R7
+32
+R74
+!i10b 1
+R79
+R124
+R125
+!i113 1
+R12
+R13
+Etop
+R93
+R2
+R3
+R4
+R94
+R95
+l0
+L4
+VQfBMJYBm6CdUdCG0CHzoX3
+!s100 Ci=CSga[AbP6Y6ni85b5h2
+R7
+32
+R74
+!i10b 1
+R79
+R96
+R97
+!i113 1
+R12
+R13
+Aarc_top
+R2
+R3
+R92
+l163
+L22
+V2VmO?EJh8UD9FdWgfd7Tl1
+!s100 _2<g]^N^@3F`9bNbf[o6H3
+R7
+32
+R74
+!i10b 1
+R79
+R96
+R97
+!i113 1
+R12
+R13
+Etop_tb
+R99
+R50
+R1
+R2
+R3
+R4
+R100
+R101
+l0
+L6
+V7EIX:SMJ42G5fEW@3Q0;[0
+!s100 N6TJS47ndjaT0cYgYY<F[2
+R7
+32
+R74
+!i10b 1
+R79
+R102
+R103
+!i113 1
+R12
+R13
+Aarc_top_tb
+R50
+R1
+R2
+R3
+R98
+l459
+L9
+Z126 V8P8][e=jUhQT28ZbJ3;U32
+Z127 !s100 ae`Gl2VPIoPO?@kJh?MZo1
+R7
+32
+R74
+!i10b 1
+R79
+R102
+R103
+!i113 1
+R12
+R13

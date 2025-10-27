@@ -1,0 +1,115 @@
+Functional ASM Table
+
+Y1     y1        5      alu_ctr:=ir1(15-11)
+       y2       16      alu_inp1:=br
+       y3       16      alu_inp2:=ir2
+       y4       16      ralu:=alu_outp
+       y5        1      zf:=alu_z
+
+Y2     y6        4      bor_adr:=ir1(3-0)
+       y7        8      ir2(15-8):=bor[bor_adr](15-8)
+       y8        8      ir2(7-0):=bor[bor_adr](7-0)
+
+Y3     y9       16      bor[bor_adr]:=ralu
+       y10       4      bor_adr:=ir1(7-4)
+
+Y4     y10       4      bor_adr:=ir1(7-4)
+       y11       8      br(15-8):=bor[bor_adr](15-8)
+       y12       8      br(7-0):=bor[bor_adr](7-0)
+
+Y5     y13      16      pc:=ir2
+
+Y6     y14      16      m1_address:=ir2
+
+Y7     y14      16      m1_address:=ir2
+       y15      16      pc:=m1[m1_address]
+
+Y8     y16      16      bor[bor_adr]:=br
+       y10       4      bor_adr:=ir1(7-4)
+
+Y9     y17       8      br(15-8):=inpr(15-8)
+       y18       8      br(7-0):=inpr(7-0)
+
+Y10    y19      16      bor[bor_adr]:=ir2
+       y10       4      bor_adr:=ir1(7-4)
+
+Y11    y20      16      bor[bor_adr]:=m1[m1_address]
+       y10       4      bor_adr:=ir1(7-4)
+       y14      16      m1_address:=ir2
+
+Y12    y21      16      outr:=br
+
+Y13    y10       4      bor_adr:=ir1(7-4)
+       y22      16      m1[m1_address]:=bor[bor_adr]
+       y14      16      m1_address:=ir2
+
+Y14    y23       8      br(15-8):=m1[m1_address](15-8)
+       y24       8      br(7-0):=m1[m1_address](7-0)
+       y25      16      m1_address:=ext_adr
+
+Y15    y25      16      m1_address:=ext_adr
+
+Y16    y26      16      ext_in:=br
+
+Y17    y27       8      br(15-8):=ext_out(15-8)
+       y28       8      br(7-0):=ext_out(7-0)
+       y29      16      mac:=ext_adr
+
+Y18    y29      16      mac:=ext_adr
+
+Y19    y30      16      m1[m1_address]:=br
+       y25      16      m1_address:=ext_adr
+
+Y20    y31      16      m0_address:=pc
+
+Y20    y31      16      m0_address:=pc
+
+Y20    y31      16      m0_address:=pc
+
+Y20    y31      16      m0_address:=pc
+
+Y21    y32       8      ir1(7-0):=m0[m0_address]
+
+Y22    y33       0      pc:=pc+1
+
+Y22    y33       0      pc:=pc+1
+
+Y22    y33       0      pc:=pc+1
+
+Y22    y33       0      pc:=pc+1
+
+Y23    y34       8      ir1(15-8):=m0[m0_address]
+
+Y24    y35       8      ir2(7-0):=m0[m0_address]
+
+Y25    y36       8      ir2(15-8):=m0[m0_address]
+
+Y26    y37       8      ir2(15-8):=tempReg16_1(15-8)
+       y38       8      ir2(7-0):=tempReg16_1(7-0)
+
+Y27    y39       8      br(7-0):=m0[m0_address]
+       y40      16      m0_address:=mac
+
+Y28    y40      16      m0_address:=mac
+
+Y28    y40      16      m0_address:=mac
+
+Y29    y41       0      mac:=mac+1
+
+Y29    y41       0      mac:=mac+1
+
+Y30    y42       8      br(15-8):=m0[m0_address]
+       y40      16      m0_address:=mac
+
+Y31    y43       8      m0[m0_address]:=br(7-0)
+       y40      16      m0_address:=mac
+
+Y32    y44       8      m0[m0_address]:=br(15-8)
+       y40      16      m0_address:=mac
+
+Y33    y45       4      alu16_1_ctr:="0001"
+       y46      16      alu16_1_in1:=ir2
+       y47      16      alu16_1_in2:=bor[bor_adr]
+       y6        4      bor_adr:=ir1(3-0)
+       y48      16      tempReg16_1:=alu16_1_out
+

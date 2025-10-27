@@ -1,0 +1,35 @@
+C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/HLS/my_package.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/HLS/my_package.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package MY_PACKAGE
+-- Compiling package body MY_PACKAGE
+-- Loading package MY_PACKAGE
+
+} {} {}} C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/HLS/Funcmi.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/HLS/Funcmi.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MY_PACKAGE
+-- Compiling entity Funcmi
+-- Compiling architecture ARC_Funcmi of Funcmi
+
+} {} {}} C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/HLS/Funcmi_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/HLS/Funcmi_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MY_PACKAGE
+-- Compiling entity FUNCMI_tb
+-- Compiling architecture ARC_FUNCMI_tb of FUNCMI_tb
+-- Compiling configuration CFG_FUNCMI_tb
+-- Loading entity FUNCMI_tb
+-- Loading architecture ARC_FUNCMI_tb of FUNCMI_tb
+-- Loading entity Funcmi
+
+} {} {}}

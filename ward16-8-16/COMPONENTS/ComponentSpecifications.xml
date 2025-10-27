@@ -1,0 +1,29 @@
+<components_specification>
+	<component path="C:\Users\wardk\OneDrive\Desktop\ward16-8-16\COMPONENTS\alu.vhd">
+		<entity name="alu">
+			<port name="inp1" direction="in" subtype="std_logic_vector" width="16"/>
+			<port name="inp2" direction="in" subtype="std_logic_vector" width="16"/>
+			<port name="ctr" direction="in" subtype="std_logic_vector" width="5"/>
+			<port name="outp" direction="out" subtype="std_logic_vector" width="16"/>
+			<port name="z" direction="out" subtype="std_logic" width="1"/>
+		</entity>
+	</component>
+	<component path="C:\Users\wardk\OneDrive\Desktop\ward16-8-16\COMPONENTS\memAlt65536x16.vhd">
+		<entity name="memAlt65536x16">
+			<port name="clock" direction="in" subtype="std_logic" width="1"/>
+			<port name="address" direction="in" subtype="std_logic_vector" width="16"/>
+			<port name="data" direction="in" subtype="std_logic_vector" width="16"/>
+			<port name="wren" direction="in" subtype="std_logic" width="1"/>
+			<port name="q" direction="out" subtype="std_logic_vector" width="16"/>
+		</entity>
+	</component>
+	<component path="C:\Users\wardk\OneDrive\Desktop\ward16-8-16\COMPONENTS\memAlt65536x8.vhd">
+		<entity name="memAlt65536x8">
+			<port name="clock" direction="in" subtype="std_logic" width="1"/>
+			<port name="address" direction="in" subtype="std_logic_vector" width="16"/>
+			<port name="data" direction="in" subtype="std_logic_vector" width="8"/>
+			<port name="wren" direction="in" subtype="std_logic" width="1"/>
+			<port name="q" direction="out" subtype="std_logic_vector" width="8"/>
+		</entity>
+	</component>
+</components_specification>

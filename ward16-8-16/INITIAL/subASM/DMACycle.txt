@@ -1,0 +1,24 @@
+Micro Instructions:
+Y1 = y1 y2
+Y2 = y3
+Y3 = y1
+Y4 = y4
+Y5 = y5
+Y6 = y6 y7
+Y7 = y6
+Y8 = y1 y8
+
+Micro Operations:
+y1  :  m1_address:=ext_adr
+y2  :  br:=m1[m1_address]
+y3  :  m0tobr
+y4  :  br2m0
+y5  :  ext_in:=br
+y6  :  mac:=ext_adr
+y7  :  br:=ext_out
+y8  :  m1[m1_address]:=br
+
+Logical Conditions:
+File 	 Draw
+x1  : m
+x2  : ext_rdwr

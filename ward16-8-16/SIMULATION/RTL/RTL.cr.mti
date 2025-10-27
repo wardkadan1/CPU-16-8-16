@@ -1,0 +1,258 @@
+C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/g_comp.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/g_comp.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity g_comp
+-- Compiling architecture arc_g_comp of g_comp
+-- Compiling configuration cfg_g_comp
+-- Loading entity g_comp
+-- Loading architecture arc_g_comp of g_comp
+
+} {} {}} C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/alu_16bit.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/alu_16bit.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity alu_16bit
+-- Compiling architecture arc_alu_16bit of alu_16bit
+-- Compiling configuration cfg_alu_16bit
+-- Loading entity alu_16bit
+-- Loading architecture arc_alu_16bit of alu_16bit
+
+} {} {}} C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/d_ff.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/d_ff.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity d_ff
+-- Compiling architecture arc_d_ff of d_ff
+-- Compiling configuration cfg_d_ff
+-- Loading entity d_ff
+-- Loading architecture arc_d_ff of d_ff
+
+} {} {}} C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/mux_2x4.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/mux_2x4.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_2x4
+-- Compiling architecture arc_mux_2x4 of mux_2x4
+-- Compiling configuration cfg_mux_2x4
+-- Loading entity mux_2x4
+-- Loading architecture arc_mux_2x4 of mux_2x4
+
+} {} {}} C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/memAlt65536x8.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/memAlt65536x8.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity memAlt65536x8
+-- Compiling architecture rtl of memAlt65536x8
+
+} {} {}} C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/Structm.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/Structm.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package components
+-- Compiling entity Structm
+-- Compiling architecture ARC_Structm of Structm
+
+} {} {}} C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/bor_4adr_16bit.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/bor_4adr_16bit.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity bor_4adr_16bit
+-- Compiling architecture arc_bor_4adr_16bit of bor_4adr_16bit
+-- Compiling configuration cfg_bor_4adr_16bit
+-- Loading entity bor_4adr_16bit
+-- Loading architecture arc_bor_4adr_16bit of bor_4adr_16bit
+
+} {} {}} C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/top.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/top.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity top
+-- Compiling architecture arc_top of top
+-- Compiling configuration cfg_top
+-- Loading entity top
+-- Loading architecture arc_top of top
+-- Loading package NUMERIC_STD
+-- Loading package components
+-- Loading entity Structm
+-- Loading entity dp
+
+} {} {}} C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/reg_16bit.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/reg_16bit.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity reg_16bit
+-- Compiling architecture arc_reg_16bit of reg_16bit
+-- Compiling configuration cfg_reg_16bit
+-- Loading entity reg_16bit
+-- Loading architecture arc_reg_16bit of reg_16bit
+
+} {} {}} C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/reg_8bit.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/reg_8bit.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity reg_8bit
+-- Compiling architecture arc_reg_8bit of reg_8bit
+-- Compiling configuration cfg_reg_8bit
+-- Loading entity reg_8bit
+-- Loading architecture arc_reg_8bit of reg_8bit
+
+} {} {}} C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/counter_p_16bit.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/counter_p_16bit.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity counter_p_16bit
+-- Compiling architecture arc_counter_p_16bit of counter_p_16bit
+-- Compiling configuration cfg_counter_p_16bit
+-- Loading entity counter_p_16bit
+-- Loading architecture arc_counter_p_16bit of counter_p_16bit
+
+} {} {}} C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/dp.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/dp.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package components
+-- Compiling entity dp
+-- Compiling architecture arc_dp of dp
+-- Compiling configuration cfg_dp
+-- Loading entity dp
+-- Loading architecture arc_dp of dp
+-- Loading entity mux_2x16
+-- Loading entity mux_7x16
+-- Loading entity mux_2x4
+-- Loading entity mux_8x8
+-- Loading entity mux_6x8
+-- Loading entity alu
+-- Loading entity memAlt65536x16
+-- Loading entity memAlt65536x8
+-- Loading entity d_ff
+-- Loading entity reg_16bit_2en
+-- Loading entity reg_16bit
+-- Loading entity bor_4adr_16bit
+-- Loading entity counter_p_16bit
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity g_comp
+-- Loading entity alu_16bit
+
+} {} {}} C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/components.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/components.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package components
+-- Compiling package body components
+-- Loading package components
+
+} {} {}} C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/reg_16bit_2en.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/reg_16bit_2en.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity reg_16bit_2en
+-- Compiling architecture arc_reg_16bit_2en of reg_16bit_2en
+
+} {} {}} C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/mux_7x16.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/mux_7x16.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_7x16
+-- Compiling architecture arc_mux_7x16 of mux_7x16
+-- Compiling configuration cfg_mux_7x16
+-- Loading entity mux_7x16
+-- Loading architecture arc_mux_7x16 of mux_7x16
+
+} {} {}} C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/mux_6x8.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/mux_6x8.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_6x8
+-- Compiling architecture arc_mux_6x8 of mux_6x8
+-- Compiling configuration cfg_mux_6x8
+-- Loading entity mux_6x8
+-- Loading architecture arc_mux_6x8 of mux_6x8
+
+} {} {}} C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/Top_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/Top_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package components
+-- Compiling entity Top_tb
+-- Compiling architecture ARC_Top_tb of Top_tb
+-- Compiling configuration CFG_Top_tb
+-- Loading entity Top_tb
+-- Loading architecture ARC_Top_tb of Top_tb
+-- Loading entity top
+
+} {} {}} C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/memAlt65536x16.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/memAlt65536x16.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity memAlt65536x16
+-- Compiling architecture rtl of memAlt65536x16
+
+} {} {}} C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/mux_8x8.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/mux_8x8.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_8x8
+-- Compiling architecture arc_mux_8x8 of mux_8x8
+-- Compiling configuration cfg_mux_8x8
+-- Loading entity mux_8x8
+-- Loading architecture arc_mux_8x8 of mux_8x8
+
+} {} {}} C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/alu.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/alu.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity alu
+-- Compiling architecture arc_alu of alu
+-- Compiling configuration cfg_alu
+-- Loading entity alu
+-- Loading architecture arc_alu of alu
+
+} {} {}} C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/mux_2x16.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/wardk/OneDrive/Desktop/ward16-8-16/SIMULATION/RTL/mux_2x16.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_2x16
+-- Compiling architecture arc_mux_2x16 of mux_2x16
+-- Compiling configuration cfg_mux_2x16
+-- Loading entity mux_2x16
+-- Loading architecture arc_mux_2x16 of mux_2x16
+
+} {} {}}

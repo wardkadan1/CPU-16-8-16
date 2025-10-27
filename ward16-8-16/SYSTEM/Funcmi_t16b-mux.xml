@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Connections bit_width="16" xmlns="http://schemas.microsoft.com/AutomationExtensibility" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.microsoft.com/AutomationExtensibility MuxSpecNew.xsd">
+	<Muxes>
+		<Mux name="MUX3" ctr_width="1" >
+			<Outputs>
+				<Output name="m1_address" />
+			</Outputs>
+
+			<Inputs>
+				<Input name="ir2" weight="4" code="0" in="0" >
+					<Target name="m1_address" />
+				</Input>
+
+				<Input name="ext_adr" weight="3" code="1" in="1" >
+					<Target name="m1_address" />
+				</Input>
+			</Inputs>
+		</Mux>
+
+		<Mux name="MUX4" ctr_width="3" >
+			<Outputs>
+				<Output name="bor[bor_adr]" />
+				<Output name="m0_address" />
+				<Output name="m1[m1_address]" />
+				<Output name="pc" />
+			</Outputs>
+
+			<Inputs>
+				<Input name="mac" weight="6" code="000" in="0" >
+					<Target name="m0_address" />
+				</Input>
+
+				<Input name="pc" weight="4" code="001" in="1" >
+					<Target name="m0_address" />
+				</Input>
+
+				<Input name="m1[m1_address]" weight="2" code="010" in="2" >
+					<Target name="bor[bor_adr]" />
+					<Target name="pc" />
+				</Input>
+
+				<Input name="br" weight="2" code="100" in="4" >
+					<Target name="bor[bor_adr]" />
+					<Target name="m1[m1_address]" />
+				</Input>
+
+				<Input name="ir2" weight="2" code="011" in="3" >
+					<Target name="bor[bor_adr]" />
+					<Target name="pc" />
+				</Input>
+
+				<Input name="bor[bor_adr]" weight="1" code="101" in="5" >
+					<Target name="m1[m1_address]" />
+				</Input>
+
+				<Input name="ralu" weight="1" code="110" in="6" >
+					<Target name="bor[bor_adr]" />
+				</Input>
+			</Inputs>
+		</Mux>
+	</Muxes>
+
+	<DirectConnections>
+		<Source name="alu16_1_out" >
+			<Target name="tempReg16_1" />
+		</Source>
+
+		<Source name="alu_outp" >
+			<Target name="ralu" />
+		</Source>
+
+		<Source name="bor[bor_adr]" >
+			<Target name="alu16_1_in2" />
+		</Source>
+
+		<Source name="br" >
+			<Target name="alu_inp1" />
+			<Target name="ext_in" />
+			<Target name="outr" />
+		</Source>
+
+		<Source name="ext_adr" >
+			<Target name="mac" />
+		</Source>
+
+		<Source name="ir2" >
+			<Target name="alu16_1_in1" />
+			<Target name="alu_inp2" />
+		</Source>
+	</DirectConnections>
+</Connections>

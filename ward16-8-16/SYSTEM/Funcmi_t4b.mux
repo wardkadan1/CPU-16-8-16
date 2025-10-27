@@ -1,0 +1,17 @@
+INDIRECT CONNECTIONS:
+
+MUX0
+   OUTPUT:
+	bor_adr   
+    INPUT:
+	ir1(7-4)              6    0        in0    bor_adr
+	ir1(3-0)              2    1        in1    bor_adr
+
+
+
+DIRECT CONNECTIONS:
+
+        SOURCES                       TARGETS
+
+         "0001"                   alu16_1_ctr
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Connections bit_width="5" xmlns="http://schemas.microsoft.com/AutomationExtensibility" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.microsoft.com/AutomationExtensibility MuxSpecNew.xsd">
+	<Muxes>	</Muxes>
+
+	<DirectConnections>
+		<Source name="ir1(15-11)" >
+			<Target name="alu_ctr" />
+		</Source>
+	</DirectConnections>
+</Connections>

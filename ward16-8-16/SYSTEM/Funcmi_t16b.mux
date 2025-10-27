@@ -1,0 +1,49 @@
+INDIRECT CONNECTIONS:
+
+MUX3
+   OUTPUT:
+	m1_address
+    INPUT:
+	ir2                   4    0        in0    m1_address
+	ext_adr               3    1        in1    m1_address
+
+
+MUX4
+   OUTPUT:
+	bor[bor_adr]
+	m0_address
+	m1[m1_address]
+	pc        
+    INPUT:
+	mac                   6    000      in0    m0_address
+	pc                    4    001      in1    m0_address
+	m1[m1_address]        2    010      in2    bor[bor_adr]
+	                                           pc
+	br                    2    100      in4    bor[bor_adr]
+	                                           m1[m1_address]
+	ir2                   2    011      in3    bor[bor_adr]
+	                                           pc
+	bor[bor_adr]          1    101      in5    m1[m1_address]
+	ralu                  1    110      in6    bor[bor_adr]
+
+
+
+DIRECT CONNECTIONS:
+
+        SOURCES                       TARGETS
+
+    alu16_1_out                   tempReg16_1
+
+       alu_outp                          ralu
+
+   bor[bor_adr]                   alu16_1_in2
+
+             br                      alu_inp1
+                                       ext_in
+                                         outr
+
+        ext_adr                           mac
+
+            ir2                   alu16_1_in1
+                                     alu_inp2
+

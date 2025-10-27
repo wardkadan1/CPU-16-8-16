@@ -1,0 +1,38 @@
+Sun Jun  1 10:03:52 2025 : [INFO]  ==================== AsmTxtChecker ====================
+Sun Jun  1 10:03:52 2025 : [INFO]  Found 13 ASM file(s) in 'C:\Users\wardk\OneDrive\Desktop\ward16-8-16\INITIAL'
+Sun Jun  1 10:03:52 2025 : [INFO]  File  'subASM\AbsAdr.txt'
+Sun Jun  1 10:03:52 2025 : [INFO]  File  'subASM\br2m0.txt'
+Sun Jun  1 10:03:52 2025 : [INFO]  File  'subASM\DMACycle.txt'
+Sun Jun  1 10:03:52 2025 : [INFO]  File  'subASM\Fetch1.txt'
+Sun Jun  1 10:03:52 2025 : [INFO]  File  'subASM\Fetch2.txt'
+Sun Jun  1 10:03:52 2025 : [INFO]  File  'subASM\m0tobr.txt'
+Sun Jun  1 10:03:52 2025 : [INFO]  File  'ao.txt'
+Sun Jun  1 10:03:52 2025 : [INFO]  File  'bcz.txt'
+Sun Jun  1 10:03:52 2025 : [INFO]  File  'bun.txt'
+Sun Jun  1 10:03:52 2025 : [INFO]  File  'inp.txt'
+Sun Jun  1 10:03:52 2025 : [INFO]  File  'lod.txt'
+Sun Jun  1 10:03:52 2025 : [INFO]  File  'out.txt'
+Sun Jun  1 10:03:52 2025 : [INFO]  File  'str.txt'
+Sun Jun  1 10:03:52 2025 : [INFO]  No errors found
+Sun Jun  1 10:03:52 2025 : [INFO]  =======================================================
+Sun Jun  1 10:03:53 2025 : [INFO]  Found license in: 'C:\Program Files\Syntezza\Synthagate\'. Your license is valid till June 16, 2025
+Sun Jun  1 10:03:53 2025 : [INFO]  ==================== Insert ASM ====================
+Sun Jun  1 10:03:53 2025 : [INFO]  ====================================================
+Sun Jun  1 10:03:53 2025 : [INFO]  ==================== Functional check ====================
+Sun Jun  1 10:03:53 2025 : [INFO]  No errors detected
+Sun Jun  1 10:03:53 2025 : [INFO]  ==========================================================
+Sun Jun  1 10:03:54 2025 : [INFO]  ==================== Functional check ====================
+Sun Jun  1 10:03:54 2025 : [INFO]  No errors detected
+Sun Jun  1 10:03:54 2025 : [INFO]  ==========================================================
+Sun Jun  1 10:03:54 2025 : [INFO]  ==================== Functional check ====================
+Sun Jun  1 10:03:54 2025 : [INFO]  No errors detected
+Sun Jun  1 10:03:54 2025 : [INFO]  ==========================================================
+Sun Jun  1 10:03:54 2025 : [INFO]  ==================== ASM Transform ====================
+Sun Jun  1 10:03:54 2025 : [INFO]  =======================================================
+Sun Jun  1 10:03:54 2025 : [INFO]  ==================== TabSplit ====================
+Sun Jun  1 10:03:54 2025 : [INFO]  ==================================================
+Sun Jun  1 10:03:59 2025 : [INFO]  ==================== Data Path Design ====================
+Sun Jun  1 10:03:59 2025 : [INFO]  The following micro-instructions contain no micro-operations in the file 'structm.tab':
+Y6, Y12, Y16, Y28
+Sun Jun  1 10:03:59 2025 : [INFO]  ==========================================================
+No errors detected

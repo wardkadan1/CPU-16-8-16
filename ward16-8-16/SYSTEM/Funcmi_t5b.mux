@@ -1,0 +1,9 @@
+INDIRECT CONNECTIONS:
+
+
+DIRECT CONNECTIONS:
+
+        SOURCES                       TARGETS
+
+     ir1(15-11)                       alu_ctr
+

@@ -1,0 +1,9 @@
+INDIRECT CONNECTIONS:
+
+
+DIRECT CONNECTIONS:
+
+        SOURCES                       TARGETS
+
+          alu_z                            zf
+

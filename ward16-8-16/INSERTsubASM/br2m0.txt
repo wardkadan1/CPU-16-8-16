@@ -1,0 +1,13 @@
+Micro Instructions:
+Y1 = y1 y2
+Y2 = y1 y3
+Y3 = y4
+
+Micro Operations:
+y1  :  m0_address:=mac
+y2  :  m0[m0_address]:=br(7-0)
+y3  :  m0[m0_address]:=br(15-8)
+y4  :  mac:=mac+1
+
+Logical Conditions:
+File 	 Draw

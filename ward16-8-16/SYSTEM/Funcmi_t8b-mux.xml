@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Connections bit_width="8" xmlns="http://schemas.microsoft.com/AutomationExtensibility" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.microsoft.com/AutomationExtensibility MuxSpecNew.xsd">
+	<Muxes>
+		<Mux name="MUX1" ctr_width="3" >
+			<Outputs>
+				<Output name="br(15-8)" />
+				<Output name="ir2(15-8)" />
+				<Output name="m0[m0_address]" />
+			</Outputs>
+
+			<Inputs>
+				<Input name="bor[bor_adr](15-8)" weight="2" code="000" in="0" >
+					<Target name="br(15-8)" />
+					<Target name="ir2(15-8)" />
+				</Input>
+
+				<Input name="m0[m0_address]" weight="2" code="001" in="1" >
+					<Target name="br(15-8)" />
+					<Target name="ir2(15-8)" />
+				</Input>
+
+				<Input name="br(7-0)" weight="1" code="010" in="2" >
+					<Target name="m0[m0_address]" />
+				</Input>
+
+				<Input name="ext_out(15-8)" weight="1" code="100" in="4" >
+					<Target name="br(15-8)" />
+				</Input>
+
+				<Input name="inpr(15-8)" weight="1" code="011" in="3" >
+					<Target name="br(15-8)" />
+				</Input>
+
+				<Input name="br(15-8)" weight="1" code="101" in="5" >
+					<Target name="m0[m0_address]" />
+				</Input>
+
+				<Input name="m1[m1_address](15-8)" weight="1" code="110" in="6" >
+					<Target name="br(15-8)" />
+				</Input>
+
+				<Input name="tempReg16_1(15-8)" weight="1" code="111" in="7" >
+					<Target name="ir2(15-8)" />
+				</Input>
+			</Inputs>
+		</Mux>
+
+		<Mux name="MUX2" ctr_width="3" >
+			<Outputs>
+				<Output name="br(7-0)" />
+				<Output name="ir2(7-0)" />
+			</Outputs>
+
+			<Inputs>
+				<Input name="bor[bor_adr](7-0)" weight="2" code="000" in="0" >
+					<Target name="br(7-0)" />
+					<Target name="ir2(7-0)" />
+				</Input>
+
+				<Input name="m0[m0_address]" weight="2" code="001" in="1" >
+					<Target name="br(7-0)" />
+					<Target name="ir2(7-0)" />
+				</Input>
+
+				<Input name="inpr(7-0)" weight="1" code="010" in="2" >
+					<Target name="br(7-0)" />
+				</Input>
+
+				<Input name="ext_out(7-0)" weight="1" code="100" in="4" >
+					<Target name="br(7-0)" />
+				</Input>
+
+				<Input name="m1[m1_address](7-0)" weight="1" code="011" in="3" >
+					<Target name="br(7-0)" />
+				</Input>
+
+				<Input name="tempReg16_1(7-0)" weight="1" code="101" in="5" >
+					<Target name="ir2(7-0)" />
+				</Input>
+			</Inputs>
+		</Mux>
+	</Muxes>
+
+	<DirectConnections>
+		<Source name="m0[m0_address]" >
+			<Target name="ir1(15-8)" />
+			<Target name="ir1(7-0)" />
+		</Source>
+	</DirectConnections>
+</Connections>

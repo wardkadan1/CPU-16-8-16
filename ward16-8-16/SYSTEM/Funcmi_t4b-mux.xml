@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Connections bit_width="4" xmlns="http://schemas.microsoft.com/AutomationExtensibility" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.microsoft.com/AutomationExtensibility MuxSpecNew.xsd">
+	<Muxes>
+		<Mux name="MUX0" ctr_width="1" >
+			<Outputs>
+				<Output name="bor_adr" />
+			</Outputs>
+
+			<Inputs>
+				<Input name="ir1(7-4)" weight="6" code="0" in="0" >
+					<Target name="bor_adr" />
+				</Input>
+
+				<Input name="ir1(3-0)" weight="2" code="1" in="1" >
+					<Target name="bor_adr" />
+				</Input>
+			</Inputs>
+		</Mux>
+	</Muxes>
+
+	<DirectConnections>
+		<Source name="&quot;0001&quot;" >
+			<Target name="alu16_1_ctr" />
+		</Source>
+	</DirectConnections>
+</Connections>

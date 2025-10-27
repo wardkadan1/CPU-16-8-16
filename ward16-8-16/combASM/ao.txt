@@ -1,0 +1,26 @@
+Micro Instructions:
+Y1 = y1 y2 y3 y4 y5
+Y2 = y6 y7
+Y3 = y8 y9
+Y4 = y10
+Y5 = y8 y11
+Y6 = y12
+
+Micro Operations:
+y1  :  alu_inp1:=br
+y2  :  alu_inp2:=ir2
+y3  :  alu_ctr:=ir1(15-11)
+y4  :  ralu:=alu_outp
+y5  :  zf:=alu_z
+y6  :  bor_adr:=ir1(3-0)
+y7  :  ir2:=bor[bor_adr]
+y8  :  bor_adr:=ir1(7-4)
+y9  :  bor[bor_adr]:=ralu
+y10  :  dmacycle
+y11  :  br:=bor[bor_adr]
+y12  :  fetch1
+
+Logical Conditions:
+File 	 Draw
+x1  : dma
+x2  : s

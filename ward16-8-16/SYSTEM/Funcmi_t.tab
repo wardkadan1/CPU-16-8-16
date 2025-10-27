@@ -1,0 +1,109 @@
+Functional ASM Table
+
+Y1        y4        5    alu_ctr:=ir1(15-11)
+          y5        16   alu_inp1:=br
+          y6        16   alu_inp2:=ir2
+          y40       16   ralu:=alu_outp
+          y42       1    zf:=alu_z
+
+Y2        y11       4    bor_adr:=ir1(3-0)
+          y24       16   ir2:=bor[bor_adr]
+
+Y3        y10       16   bor[bor_adr]:=ralu
+          y12       4    bor_adr:=ir1(7-4)
+
+Y4        y12       4    bor_adr:=ir1(7-4)
+          y15       16   br:=bor[bor_adr]
+
+Y5        y37       16   pc:=ir2
+
+Y6        y33       16   m1_address:=ir2
+
+Y7        y33       16   m1_address:=ir2
+          y38       16   pc:=m1[m1_address]
+
+Y8        y7        16   bor[bor_adr]:=br
+          y12       4    bor_adr:=ir1(7-4)
+
+Y9        y17       16   br:=inpr
+
+Y10       y8        16   bor[bor_adr]:=ir2
+          y12       4    bor_adr:=ir1(7-4)
+
+Y11       y9        16   bor[bor_adr]:=m1[m1_address]
+          y12       4    bor_adr:=ir1(7-4)
+          y33       16   m1_address:=ir2
+
+Y12       y36       16   outr:=br
+
+Y13       y12       4    bor_adr:=ir1(7-4)
+          y30       16   m1[m1_address]:=bor[bor_adr]
+          y33       16   m1_address:=ir2
+
+Y14       y18       16   br:=m1[m1_address]
+          y32       16   m1_address:=ext_adr
+
+Y15       y32       16   m1_address:=ext_adr
+
+Y16       y19       16   ext_in:=br
+
+Y17       y16       16   br:=ext_out
+          y34       16   mac:=ext_adr
+
+Y18       y34       16   mac:=ext_adr
+
+Y19       y31       16   m1[m1_address]:=br
+          y32       16   m1_address:=ext_adr
+
+Y20       y29       16   m0_address:=pc
+
+Y20       y29       16   m0_address:=pc
+
+Y20       y29       16   m0_address:=pc
+
+Y20       y29       16   m0_address:=pc
+
+Y21       y21       8    ir1(7-0):=m0[m0_address]
+
+Y22       y39       0    pc:=pc+1
+
+Y22       y39       0    pc:=pc+1
+
+Y22       y39       0    pc:=pc+1
+
+Y22       y39       0    pc:=pc+1
+
+Y23       y20       8    ir1(15-8):=m0[m0_address]
+
+Y24       y23       8    ir2(7-0):=m0[m0_address]
+
+Y25       y22       8    ir2(15-8):=m0[m0_address]
+
+Y26       y25       16   ir2:=tempReg16_1
+
+Y27       y14       8    br(7-0):=m0[m0_address]
+          y28       16   m0_address:=mac
+
+Y28       y28       16   m0_address:=mac
+
+Y28       y28       16   m0_address:=mac
+
+Y29       y35       0    mac:=mac+1
+
+Y29       y35       0    mac:=mac+1
+
+Y30       y13       8    br(15-8):=m0[m0_address]
+          y28       16   m0_address:=mac
+
+Y31       y27       8    m0[m0_address]:=br(7-0)
+          y28       16   m0_address:=mac
+
+Y32       y26       8    m0[m0_address]:=br(15-8)
+          y28       16   m0_address:=mac
+
+Y33       y1        4    alu16_1_ctr:="0001"
+          y2        16   alu16_1_in1:=ir2
+          y3        16   alu16_1_in2:=bor[bor_adr]
+          y11       4    bor_adr:=ir1(3-0)
+          y41       16   tempReg16_1:=alu16_1_out
+

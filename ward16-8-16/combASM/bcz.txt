@@ -1,0 +1,24 @@
+Micro Instructions:
+Y1 = y1
+Y2 = y2
+Y3 = y3
+Y4 = y4
+Y5 = y5
+Y6 = y6
+Y7 = y6 y7
+
+Micro Operations:
+y1  :  fetch1
+y2  :  dmacycle
+y3  :  fetch2
+y4  :  absadr
+y5  :  pc:=ir2
+y6  :  m1_address:=ir2
+y7  :  pc:=m1[m1_address]
+
+Logical Conditions:
+File 	 Draw
+x1  : dma
+x2  : ir1(8)
+x3  : s
+x4  : zf
